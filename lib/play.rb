@@ -31,7 +31,7 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
-    puts "PLease, enter a valid input"
+    turn(board)
 end
 
 # Define your play method below
